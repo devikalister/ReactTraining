@@ -3417,7 +3417,7 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^2.20.0, commander@^2.9.0:
+commander@^2.20.0:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
@@ -4756,13 +4756,6 @@ etag@~1.8.1:
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
-etc-passwd@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/etc-passwd/-/etc-passwd-0.0.1.tgz#d65a9c18be2219a54e37a6eab6fa7255a5d32b60"
-  integrity sha1-1lqcGL4iGaVON6bqtvpyVaXTK2A=
-  dependencies:
-    lazylines "= 1.0.0"
-
 eventemitter3@^4.0.0:
   version "4.0.7"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
@@ -5174,14 +5167,6 @@ from2@^2.1.0:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
 
-fs-extra@^2.0.0:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-2.1.2.tgz#046c70163cef9aad46b0e4a7fa467fb22d71de35"
-  integrity sha1-BGxwFjzvmq1GsOSn+kZ/si1x3jU=
-  dependencies:
-    graceful-fs "^4.1.2"
-    jsonfile "^2.1.0"
-
 fs-extra@^7.0.0:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-7.0.1.tgz#4f189c44aa123b895f722804f55ea23eadc348e9"
@@ -5254,15 +5239,6 @@ functional-red-black-tree@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
-
-generate-react-component@^0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/generate-react-component/-/generate-react-component-0.1.6.tgz#f49a9a16b04019dbf2dabbbf5ac727ee76836c39"
-  integrity sha1-9JqaFrBAGdvy2ru/Wscn7naDbDk=
-  dependencies:
-    commander "^2.9.0"
-    fs-extra "^2.0.0"
-    program "^0.0.0-12"
 
 gensync@^1.0.0-beta.1:
   version "1.0.0-beta.2"
@@ -5857,11 +5833,6 @@ ini@^1.3.5:
   version "1.3.8"
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
   integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
-
-ini@~1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.1.0.tgz#4e808c2ce144c6c1788918e034d6797bc6cf6281"
-  integrity sha1-ToCMLOFExsF4iRjgNNZ5e8bPYoE=
 
 internal-ip@^4.3.0:
   version "4.3.0"
@@ -6853,13 +6824,6 @@ json5@^2.1.2:
   dependencies:
     minimist "^1.2.5"
 
-jsonfile@^2.1.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-2.4.0.tgz#3736a2b428b87bbda0cc83b53fa3d633a35c2ae8"
-  integrity sha1-NzaitCi4e72gzIO1P6PWM6NcKug=
-  optionalDependencies:
-    graceful-fs "^4.1.6"
-
 jsonfile@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-4.0.0.tgz#8771aae0799b64076b76640fca058f9c10e33ecb"
@@ -6952,11 +6916,6 @@ last-call-webpack-plugin@^3.0.0:
   dependencies:
     lodash "^4.17.5"
     webpack-sources "^1.1.0"
-
-"lazylines@= 1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/lazylines/-/lazylines-1.0.0.tgz#2e77bd82e45913656d6e32bc5d9a6dfbf176edfb"
-  integrity sha1-Lne9guRZE2VtbjK8XZpt+/F27fs=
 
 leven@^3.1.0:
   version "3.1.0"
@@ -8904,14 +8863,6 @@ process@^0.11.10:
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
 
-program@^0.0.0-12:
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/program/-/program-0.0.0.tgz#ce5c626ed43b02cbca8d0d6451ea5b05c8982089"
-  integrity sha1-zlxibtQ7AsvKjQ1kUepbBciYIIk=
-  dependencies:
-    ini "~1.1.0"
-    tilde-expansion "0.0.0"
-
 progress@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
@@ -10653,13 +10604,6 @@ thunky@^1.0.2:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/thunky/-/thunky-1.1.0.tgz#5abaf714a9405db0504732bbccd2cedd9ef9537d"
   integrity sha512-eHY7nBftgThBqOyHGVN+l8gF0BucP09fMo0oO/Lb0w1OF80dJv+lDVpXG60WMQvkcxAkNybKsrEIE3ZtKGmPrA==
-
-tilde-expansion@0.0.0:
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/tilde-expansion/-/tilde-expansion-0.0.0.tgz#8beb9b5ee58fc29cd0ec3849137d4843b5f77094"
-  integrity sha1-i+ubXuWPwpzQ7DhJE31IQ7X3cJQ=
-  dependencies:
-    etc-passwd "0.0.1"
 
 timers-browserify@^2.0.4:
   version "2.0.12"
