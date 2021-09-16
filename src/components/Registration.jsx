@@ -237,7 +237,7 @@ class Registration extends Component {
             <div className="error-msg">{errors.password}</div>
           )}
 
-          <label>Confim Password:</label>
+          <label>Confirm Password:</label>
           <input
             type="password"
             name="confirmPassword"
